@@ -2,6 +2,8 @@
 #contraseña), los únicos dos usuarios conectados son:
 #User1: pedro Contraseña1: 1234
 #User2: angel Contraseña2: a4s1
+#Estamos haciendo un comentario
+
 usuario= input("Ingresar usauario: ")
 contraseña= input("Ingresar contraseña: ")
 contraseña_1= "1234"
@@ -19,3 +21,4 @@ if user_2 == usuario and contraseña != contraseña_2:
     print("El usuariio es correcto pero La contraseña no es correcta ")
 else:
     print("El usuario y contraseña son incorrectos")
+
